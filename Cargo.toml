@@ -1,0 +1,13 @@
+[package]
+name = "screencast"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0"
+ashpd = "0.6.0"
+clap = { version = "4.3", features = ["derive"] }
+gstreamer = { version = "0.21.0", features = ["v1_22"] }
+regex = "1.9"
+tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
+v4l = "0.14.0"
